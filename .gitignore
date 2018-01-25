@@ -1,4 +1,8 @@
-images/
 .DS_Store
-programs/
+.vscode/
+images/
+
 dapp/node_modules/
+
+private-net-docker/.ethereum/
+private-net-docker/.ethash/

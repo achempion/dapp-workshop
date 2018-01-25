@@ -11,5 +11,6 @@ $ docker load < ../images/dapp.tar
 
 ## Run
 ```
+$ docker run -p 8080:8080 -v $(pwd):/srv/app/ dapp npm i
 $ docker run -p 8080:8080 -v $(pwd):/srv/app/ dapp npm run start
 ```
